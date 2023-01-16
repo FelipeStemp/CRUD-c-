@@ -1,0 +1,14 @@
+CREATE TABLE clientes
+(
+	id SMALLINT PRIMARY KEY IDENTITY(10,2),
+    nome VARCHAR(50) NULL, 
+    numero BIGINT NULL, 
+    nf VARCHAR(50) NULL, 
+    valor BIGINT NULL, 
+    entrada BIGINT NULL, 
+    despesas BIGINT NULL, 
+    parcelas INT NULL, 
+    pagas INT NULL, 
+    data DATE NULL,
+    descricao VARCHAR(4000) NULL
+)
